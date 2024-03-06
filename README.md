@@ -1,6 +1,8 @@
 # EXPERIMENT-NO--04-PRESSURE-MEASUREMENT-USING-ARDUINO-AIM-To-interface-an-FSR-force-sensitive-resistor
-
-
+# DATE: 01.03.2024
+# NAME: NARMADHA SREE .S
+# DEPARTMENT: ARTIFICIAL INTELLIGENCE & MACHINE LEARNING
+# ROLL NUMBER: 212223240105
 ## AIM: 
 To interface an FSR(force sensitive resistor) and scale the output voltage obtained to pressure applied 
  
@@ -48,17 +50,12 @@ The easiest way to measure a resistive sensor is to connect one end to power and
 
 
 
-
-
-
-
+### FIGURE-03 CIRCUIT DIAGRAM
 
 
 ![image](https://user-images.githubusercontent.com/36288975/163532979-a2a5cb5c-f495-442c-843e-bebb82737a35.png)
 
 
-
-### FIGURE-03 CIRCUIT DIAGRAM
 
 
 
@@ -76,27 +73,21 @@ The easiest way to measure a resistive sensor is to connect one end to power and
 
 
 ### PROGRAM 
- *your roll no 
- * your name 
- * department and year 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
+![Screenshot 2024-03-06 181227](https://github.com/Narmadhasree48/EXPERIMENT-NO--04-PRESSURE-MEASUREMENT-USING-ARDUINO-AIM-To-interface-an-FSR-force-sensitive-resist/assets/144979451/fd4aebb0-5f61-438a-bc4e-b804950a0a65)
 
-![image](https://user-images.githubusercontent.com/36288975/188804653-a3154e8e-2655-46f2-9dcd-f425dd1ba109.png)
-
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
 
 ### TABLE -02 standard deviation table 
 ### Population Standard Deviation
@@ -111,11 +102,25 @@ N is the total number of values
 
 For those unfamiliar with summation notation, the equation above may seem daunting, but when addressed through its individual components, this summation is not particularly complicated. The i=1 in the summation indicates the starting index, i.e. for the data set 1, 3, 4, 7, 8, i=1 would be 1, i=2 would be 3, and so on. Hence the summation notation simply means to perform the operation of (xi - μ)2 on each value through N, which in this case is 5 since there are 5 values in this data set.
 
-EX:           μ = (1+3+4+7+8) / 5 = 4.6        
-σ = √[(1 - 4.6)2 + (3 - 4.6)2 + ... + (8 - 4.6)2)]/5
-σ = √(12.96 + 2.56 + 0.36 + 5.76 + 11.56)/5 = 2.577
+EX: μ = (1.05 + 2.05 + 3.09 + 4.03 + 5.09 + 6.12 + 7.09 + 8.12 + 9.22 + 10) / 10 = 5.586
+σ = √[(1.05-5.586)^2 + (2.05 - 5.586)^2 + ... + (10 - 5.586)^2)]/10 σ = √(20.57 + 12.50 + 6.23 + 2.42 + 0.24 + 0.28 + 2.262 + 6.42 + 13.20 + 19.483)/10 = 2.891
 
+### OUTPUT:
+## FIGURE 01:
+### LED ON:
+![Screenshot 2024-03-06 181239](https://github.com/Narmadhasree48/EXPERIMENT-NO--04-PRESSURE-MEASUREMENT-USING-ARDUINO-AIM-To-interface-an-FSR-force-sensitive-resist/assets/144979451/36580c15-996f-47d1-b013-f3e1bd07be9a)
 
+### LED OFF:
+![Screenshot 2024-03-06 181251](https://github.com/Narmadhasree48/EXPERIMENT-NO--04-PRESSURE-MEASUREMENT-USING-ARDUINO-AIM-To-interface-an-FSR-force-sensitive-resist/assets/144979451/2753ed05-bd30-4b18-80a7-5f1658306b34)
+
+### SCHEMATIC VIEW:
+![image](https://github.com/Narmadhasree48/EXPERIMENT-NO--04-PRESSURE-MEASUREMENT-USING-ARDUINO-AIM-To-interface-an-FSR-force-sensitive-resist/assets/144979451/6c51d7ea-ae95-4768-8382-e116686ab640)
+
+### TABULATED VIEW:
+![Screenshot 2024-03-06 181314](https://github.com/Narmadhasree48/EXPERIMENT-NO--04-PRESSURE-MEASUREMENT-USING-ARDUINO-AIM-To-interface-an-FSR-force-sensitive-resist/assets/144979451/1be1b4fc-2363-4d74-b22d-b9b4a65de1f0)
+
+### GRAPH:
+![Screenshot 2024-03-06 181302](https://github.com/Narmadhasree48/EXPERIMENT-NO--04-PRESSURE-MEASUREMENT-USING-ARDUINO-AIM-To-interface-an-FSR-force-sensitive-resist/assets/144979451/ca666b3b-5f71-4492-a4e5-42fa5aed1c7b)
 
 
 
